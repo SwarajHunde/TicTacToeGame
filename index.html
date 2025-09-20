@@ -1,41 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Modern Tic Tac Toe</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Tic Tac Toe</h1>
-<div class="scoreboard">
-    <div>Player X: <span id="scoreX">0</span></div>
-    <div>Draws: <span id="scoreDraw">0</span></div>
-    <div>Player O: <span id="scoreO">0</span></div>
-</div>
+    <h1>Tic Tac Toe</h1>
 
-<div class="turn" id="turnIndicator">Player X's turn</div>
+    <div class="scoreboard">
+        <div>Player X: <span id="scoreX">0</span></div>
+        <div>Draws: <span id="scoreDraw">0</span></div>
+        <div>Player O: <span id="scoreO">0</span></div>
+    </div>
 
-<div class="board" id="board">
-    <div class="cell" data-index="0"></div>
-    <div class="cell" data-index="1"></div>
-    <div class="cell" data-index="2"></div>
-    <div class="cell" data-index="3"></div>
-    <div class="cell" data-index="4"></div>
-    <div class="cell" data-index="5"></div>
-    <div class="cell" data-index="6"></div>
-    <div class="cell" data-index="7"></div>
-    <div class="cell" data-index="8"></div>
-</div>
+    <div class="turn" id="turnIndicator">
+        Player X's turn
+    </div>
 
-<div class="buttons">
-    <button id="restartBtn">Restart Game</button>
-    <button id="resetScoreBtn">Reset Scores</button>
-</div>
+    <div class="board" id="board">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+    </div>
 
-<canvas id="confetti"></canvas>
+    <div class="buttons">
+        <button id="restartBtn">Restart Game</button>
+        <button id="resetScoreBtn">Reset Scores</button>
+    </div>
 
-<script src="script.js"></script>
+    <canvas id="confetti"></canvas>
+
+    <script src="script.js"></script>
+    
 </body>
 </html>
